@@ -15,8 +15,10 @@
     
     <script>
         var nome = window.prompt('Qual o seu nome? ')
-        document.write(`Olá, <strong>${`)
-        document.write(`Seu nome tem ${nome.length} letras.`)
+        document.write(`Olá, <strong>${nome.toUpperCase()}</strong> `)
+        document.write(`Seu nome tem ${nome.length} letras.<br>`)
+        document.write(`Seu nome em minusculas é ${nome.toLowerCase()}<br>`)
+        document.write(`Em maiusculas é ${nome.toUpperCase()}`)
     </script>
 </body>
 </html>
