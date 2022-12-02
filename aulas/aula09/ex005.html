@@ -21,9 +21,12 @@
 
     <script>
         var p1 = window.document.getElementsByTagName('p')[1]
-        window.alert(p1.innerHTML)
         p1.style.color = 'blue'
-        var d = window.document.getElementById('mensagem')
+        /*var d = window.document.getElementById('mensagem')*/
+        
+        var d = window.document.querySelector('div#mensagem')
+        d.style.background = 'green'
+        d.innerText ='Estou aguardando...'
     </script>
 </body>
 </html>
