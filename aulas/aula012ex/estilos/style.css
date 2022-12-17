@@ -12,13 +12,12 @@ body {
 header > h1 {
     text-align: center;
     padding: 30px;
-    color: white;
+    color: black;
 }
 
 section {
-    background-color: white;
-    height: 60vh;
-    width: 50vw;
+    background-color: black;
+
     margin: auto;
     padding: 15px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.575);

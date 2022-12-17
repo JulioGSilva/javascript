@@ -4,7 +4,7 @@ var hora = h.getHours()
 var min = h.getMinutes()
 var sec = h.getSeconds()
 var r = window.document.getElementById('res')
-r.innerHTML = `${hora}:${min}:${sec}`
+r.innerHTML = `|${hora}:${min}:${sec}|`
 
 //menssagem de 'são ${horas}' boa ${noite}//
 
