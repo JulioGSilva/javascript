@@ -16,8 +16,6 @@ header > h1 {
 }
 
 section {
-    background-color: black;
-
     margin: auto;
     padding: 15px;
     box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.575);
