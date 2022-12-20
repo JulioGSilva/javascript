@@ -25,6 +25,12 @@ section {
     text-align: center;
 }
 
+#imagem {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+}
+
 footer {
     color: white;
     padding: 20px;
