@@ -7,13 +7,10 @@ function contar() {
     var n2 = Number(fim.value)
     var n3 = Number(passo.value)
 
-    if(fim == 0 && passo > 0) {
+    if(inicio.value.lenght == 0 || fim.value.lenght ) {
         alert('ERRO! Para fim 0, o passo deve ser negativo')
     }
-    while (n1 < n2) {
-        var cont = n1 + n3
-        res.innerHTML = `${cont} > `
-    }
+    alert(`${n1 + n3}`)
 
     //inicio = 5 / fim = 15 / passo = 2
 }
