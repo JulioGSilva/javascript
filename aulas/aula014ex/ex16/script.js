@@ -7,10 +7,12 @@ function contar() {
     var n2 = Number(fim.value)
     var n3 = Number(passo.value)
 
-    if(inicio.value.lenght == 0 || fim.value.lenght ) {
-        alert('ERRO! Para fim 0, o passo deve ser negativo')
+    if(inicio.value.length == 0 || fim.value.length ==0 || passo.value.length == 0 ) {
+        window.alert('[ERRO] Faltam dados!')
+    } else {
+        res.innerHTML = 'Contando: '
     }
-    alert(`${n1 + n3}`)
-
-    //inicio = 5 / fim = 15 / passo = 2
+    for(let c = n1; c<= n2; c+= n3) {
+        res.innerHTML += ` ${c} > `
+    }
 }
