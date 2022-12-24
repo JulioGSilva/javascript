@@ -13,6 +13,7 @@ function tabuada() {
             op.value = `tab${c}`
             tab.appendChild(op)
             c++
+            inner
         }
     }
 

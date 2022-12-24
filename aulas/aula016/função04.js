@@ -1,8 +1,20 @@
-function fat(n) {
-    let c = n
+/*function fatorial(n) {
+    let fat = 1
     for(let c = n; c > 1; c--){
-        return c * n
+        fat *= c
     }
+    return fat
 }
 
-console.log(fat(5))
+console.log(fatorial(5))*/
+
+function fatorial(n) {
+    let r = 1
+    for(let c = n; c > 1; c--) {
+        r *= c
+    }
+    return r
+    
+}
+
+console.log(fatorial(8))
