@@ -15,6 +15,7 @@ header {
     text-align: center;
     margin-top: 50px;
     padding: 30px;
+    color: white;
 }
 section#text {
     text-align: left;
@@ -29,4 +30,14 @@ main {
     border-radius: 10px;
     margin: auto;
     text-align: center;
+}
+
+section > form > #button {
+    padding: 3px;
+    margin: 10px;
+    height: 30px;
+    width: 100px;
+    background-color: rgb(85, 85, 116);
+    color: white;
+    border: 0px black;
 }

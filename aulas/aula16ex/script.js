@@ -17,7 +17,7 @@ function inlista(n, l) {
     } else {
         return false
     }
-}
+}create
 
 function adicionar() {
     if(isNumero(num.value) && !inlista(num.value, valores)) {
